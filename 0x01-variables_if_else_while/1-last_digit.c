@@ -12,7 +12,8 @@
  *
  */
 
-int main(viod)
+
+int main(void)
 
 {
 	int n, lastd;
@@ -27,7 +28,7 @@ int main(viod)
 	}
 	else if (lastd == 0)
 	{
-	printf("Lasst digit of %d is %d and is 0\", n, lastd);
+	printf("Last digit of %d is %d and is 0\n", n, lastd);
 	}
 	else if (lastd < 6 && lastd !=0)
 	{
