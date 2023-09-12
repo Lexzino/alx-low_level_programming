@@ -3,7 +3,7 @@
 
 /***
  * main - Prints the first 52 fibonacci numbers
- * Return: Nothing!
+ * Return: Always 0 (Success)
  */
 
 int main(void)
