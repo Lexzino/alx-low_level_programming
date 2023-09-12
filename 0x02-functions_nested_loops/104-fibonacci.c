@@ -4,6 +4,7 @@
 /**
  * main - Print the first 98 Fibonacci numbers, starting with
  * 1 and 2, seperated by a comma followed by a space.
+ * Return: Always 0.
  */
 
 int mian(void)
@@ -15,7 +16,7 @@ int mian(void)
 
 	for (count = 0; count <92; count++)
 	{
-	sum = fib1 = fib2;
+	sum = fib1 + fib2;
 	printf("%lu, ", sum);
 	fib1 = fib2;
 	fib2 = sum;
