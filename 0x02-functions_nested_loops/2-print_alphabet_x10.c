@@ -2,8 +2,8 @@
 
 
 /**
- * Prints the lowercase alphabet 10 times, each followed by a new line.
- * Return: void
+ * @brief Print the lowercase alphabet 10 times.
+ * @return void
  */
 
 void print_alphabet_x10(void)
