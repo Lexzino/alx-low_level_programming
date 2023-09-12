@@ -2,10 +2,15 @@
 
 
 /**
- * @brief Print the lowercase alphabet 10 times.
- * @return void
+ * Function: print_alphabet_x10
+ * ----------------------------
+ * Description:
+ *   This function prints the lowercase alphabet 10 times, with each alphabet followed
+ *   by a new line character.
+ *
+ * Returns:
+ *   void - This function does not return a value.
  */
-
 void print_alphabet_x10(void)
 {
 	char c;
