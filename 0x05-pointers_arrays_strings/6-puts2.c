@@ -4,7 +4,7 @@
 
 /**
  * puts2 - Prints every other character of a string
- * @st: The string to be treated
+ * @str: The string to be treated
  * Return: void
  */
 
