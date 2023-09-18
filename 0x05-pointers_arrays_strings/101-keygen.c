@@ -5,7 +5,7 @@
 
 /**
  * main - Generates random vlid passwords for the 
- * program 101-crackne
+ * program 101-crackme
  * Return: Alwyas 0.
  */
 
