@@ -10,7 +10,7 @@ int main(void)
 {
 	int n1 = 0, n2 = 1, n3, count, num;
 
-	printf("Enter the number of terms to be printed\n");
+	printf("Prints the first two Fibonacci numbers");
 	scanf("%d", &num);
 
 	printf("\n%d\n%d\n", n1, n2);
