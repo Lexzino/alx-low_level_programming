@@ -3,10 +3,10 @@
 #include "main.h"
 
 
-/**		
+/**
  * _strdup - duplicate to new memory space location
  * @str: char
- * Return: 0	
+ * Return: 0
  */
 
 char *_strdup(char *str)
@@ -21,7 +21,7 @@ char *_strdup(char *str)
 	i++;
 	aaa = malloc(sizeof(char) * (i + 1));
 	if (aaa == NULL)
-	return (NULL);	
+	return (NULL);
 
 	for (c = 0; str[c]; c++)
 	aaa[c] = str[c];
