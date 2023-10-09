@@ -1,13 +1,14 @@
 #include "main.h"
 #include <stdlib.h>
 
+
 /**
- * string_nconcat - ...
- * @s1: ...
- * @s2: ...
- * @n: ...
- * Return: ...
- */
+  * string_nconcat - ...
+  * @s1: ...
+  * @s2: ...
+  * @n: ...
+  * Return: ...
+  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -30,13 +31,13 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (str == NULL)
 	return (NULL);
 	c = 0;
-	while (b < d)
+	while (b < l)
 	{
 	if (b <= a)
 	str[b] = s1[b];
 	if (b >= a)
 	{
-	str[b] = s2[b];
+	str[b] = s2[c];
 	c++;
 	}
 	b++;

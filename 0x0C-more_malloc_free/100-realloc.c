@@ -1,13 +1,15 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
+
 
 /**
- * _realloc - ...
- * @ptr: ...
- * @old_size: ...
- * @new_size: ...
- * Return: ...
- */
+  * _realloc - ...
+  * @ptr: ...
+  * @old_size: ...
+  * @new_size: ...
+  * Return: ...
+  */
 
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
@@ -19,7 +21,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	if (ptr == NULL)
 	{
 	nptr = malloc(new_size);
-	if(nptr == NULL)
+	if (nptr == NULL)
 	return (NULL);
 	return (nptr);
 	}
@@ -36,7 +38,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	return (NULL);
 	for (a = 0; a < old_size && a < new_size; a++)
 	{
-	nptr[a] = ((char*) ptr)[a];
+	nptr[a] = ((char *) ptr)[a];
 	}
 	free(ptr);
 	return (nptr);

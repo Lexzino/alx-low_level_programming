@@ -3,11 +3,11 @@
 
 
 /**
- * _calloc - ...
- * @nmemb: number of members
- * @sixe: size
- * Return: ...
- */
+  * _calloc - ...
+  * @nmemb: number of members
+  * @size: size
+  * Return: ...
+  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
@@ -17,10 +17,9 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (nmemb == 0 || size == 0)
 	return (NULL);
 	b = nmemb * size;
-	p = malloc(b);
-
+	p = malloc(l);
 	if (p == NULL)
-	return(NULL);
+	return (NULL);
 	while (a < b)
 	{
 	p[a] = 0;
