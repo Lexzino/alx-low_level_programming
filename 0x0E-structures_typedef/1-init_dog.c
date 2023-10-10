@@ -5,9 +5,9 @@
 /**
   * init_dog - Initializes a dog structure
   * @d: A dog structure.
-  * @name: name of the dog.
-  * @age: age of the dog.
-  * @owner: owner of the dog.
+  * @name: The name of the dog.
+  * @age: The age of the dog.
+  * @owner:The owner of the dog.
   * Return: Nothing
   */
 
