@@ -4,22 +4,21 @@
 #include <string.h>
 #include <stddef.h>
 
-
 /**
- * print_listint - a function that prints all the elements
- * of a listint_t list
+ * listint_len - a function that returns the number of
+ * elements in a listint_t list
  * @h: pointer to head
  * Return: number of nodes
+ *
  */
 
-size_t print_listint(const listint_t *h)
+size_t listint_len(const listint_t *h)
 {
 	size_t a = 0;
 	const listint_t *temp = h;
 
 	while (temp != NULL)
 	{
-	printf("%d\n", temp->n);
 	temp = temp->next;
 	a++;
 	}
