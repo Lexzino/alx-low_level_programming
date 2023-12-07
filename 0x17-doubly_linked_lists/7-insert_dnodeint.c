@@ -7,8 +7,7 @@
  * @h: A pointer to the first node of the doubly linked list.
  * @idx: The index at which the new node should be inserted.
  * @n: The integer value to be stored in the new node.
- * Return: If the function succeeds, the address
- * of the new node; otherwise, NULL.
+ * Return: the address of the new node; otherwise, NULL.
  */
 
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
