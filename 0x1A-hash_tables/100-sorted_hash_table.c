@@ -120,7 +120,7 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 /**
  * shash_table_get - The value associated with the key.
  * @ht: A pointer to the sorted hash table.
- * @key: The key to the value 
+ * @key: The key to the value
  * Return: If the key cannot be matched - NULL.
  */
 
