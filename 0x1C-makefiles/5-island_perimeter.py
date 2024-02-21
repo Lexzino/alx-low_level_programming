@@ -2,13 +2,15 @@
 """
 creates the perimeter of an island
 """
+
+
 def island_perimeter(grid):
     """
     Compute the perimeter of the island described in the grid.
 
     Args:
     grid: a list of list of integers
-        
+
         0 represents a water zone
         1 represents a land zone
 
